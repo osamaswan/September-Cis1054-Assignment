@@ -17,13 +17,13 @@
             <div class="right-side">
                 <div id="imgslider">
                     <figure>
-                        <a href="#">
+                        <a href="details.php?ID=1">
                         <img src="assets/images/iphone-12-purple-select-2021_1.png">
                         </a>
-                        <a href="#">
+                        <a href="details.php?ID=2">
                         <img src="assets/images/xiaomi1.png">
                         </a>
-                        <a href="#">
+                        <a href="details.php?ID=1">
                         <img src="assets/images/iphone-12-purple-select-2021_1.png">
                         </a>
                     </figure>    
