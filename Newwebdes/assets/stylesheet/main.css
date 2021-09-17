@@ -1,0 +1,310 @@
+*{
+    font-size: 12px;
+}
+.body{
+    background-color: orange;
+    border-color: orange;
+    
+}
+.general{
+
+    width: 100%;
+    margin: auto;
+    background-color: orange;
+    
+    
+}
+.navigationbar{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+
+}
+ .navigationbar img{
+    width: 20%;
+    padding-bottom: 95px;
+    height: auto;
+    margin-right: 90px;
+    
+    
+    
+}
+.navigationbar ul{
+    height:fit-content ;
+    
+    width: 100%;
+    background-color: black;
+    text-align: left;
+    margin-top: -5.5em;
+    margin-bottom: 23px;
+    position: fixed;
+    margin-left: 19.5%;
+    fill: #303030;
+    z-index: 1;
+    
+
+}
+ul li{
+    display: inline-block;
+    margin: 0 25px;
+    padding-top: 13px;
+    
+    
+}
+ul li a:hover{
+    color: coral;
+    transition: 0.5s;
+}
+ul li a{
+    color: white;
+    font-size: 1.7em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: scroll;
+    text-decoration: none;
+
+}
+.content{
+    display: flex;
+    margin-top: 80px;
+
+}
+.left-side,.right-side{
+    flex-basis: 50%;
+}
+.left-side h1{
+    font-size: 3em;
+    color: #303030;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.left-side h2{
+    font-size: 2.5em;
+    color: #7c7c7c;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.left-side p{
+    font-size: 15px;
+    color: orangered;
+    font-family: Verdana, 'Geneva', sans-serif;
+}
+
+#imgslider{
+    overflow: hidden;
+    width: 80%;
+    float: right;
+}
+#imgslider figure{
+    position: relative;
+    width: 400%;
+    left: 0;
+    margin: 0;
+    animation: 15s imgslider infinite;
+}
+#imgslider figure img{
+    width: 25%;
+    float: left;
+}
+@keyframes imgslider{
+    0% {
+        left: 0;
+    }
+    35% {
+        left: 0;
+    }
+    45%{
+        left: 0;
+    }
+    50% {
+        left: -100%;
+    }
+    70% {
+        left: -100%;
+    }
+    75% {
+        left: -200%;
+    }
+    95%{
+        left: -200%;
+    }
+    100%{
+        left: -300%;
+    }
+
+}
+
+.footer-box{
+    background-color: black;
+
+}
+.footer{
+    height: 30vh;
+    background-color: black;
+    color: orangered;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    
+}
+.footerheading-footer h3{
+    font-size: 2em;
+
+}
+.footerheading-footer a{
+    color: orange;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footerheading-footer a:hover{
+    color: orangered;
+    transition: 0.5s;
+}
+
+.aboutcontent {
+    width: 100%;
+    background-color: orange;
+    overflow: auto;
+
+}
+ .aboutcontent h1{
+    margin-left: 50%;
+    font-size: 3em;
+    color: #303030;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+ }
+ .aboutcontent h2{
+    margin-left: 50%;
+    font-size: 2.5em;
+    color: #7c7c7c;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+ .aboutcontent img{
+    margin-left: 50%;
+    width: 20%;
+    height: auto;
+ }
+
+ .aboutcontent p{
+    margin-left: 43%;
+    font-size: 18px;
+    color: orangered;
+    font-family: Verdana, 'Geneva', sans-serif;
+ }
+
+ .product{
+     border: 1px whitesmoke;
+     margin: -1px 19px 3px -1px;
+     padding: 10px;
+     text-align: center;
+     background-color: gainsboro;
+ }
+table, th, tr{
+    text-align: center
+    
+    ;
+}
+.Listcontainer h2{
+    font-size: 2.5em;
+    color: #7c7c7c;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.product h4{
+    font-size: 2.5em;
+    color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.product-name li a{
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+.product-name li a:hover{
+    color: orangered;
+    transition: 0.5s;
+}
+.product img{
+    display:inline-flex;
+}
+.productcontent{
+    border: 1px whitesmoke;
+    margin: -1px 19px 3px -1px;
+    padding: 10px;
+    text-align: center;
+    background-color: gainsboro;
+    display: flex;
+}
+.productcontent .left-side,.right-side{
+    flex-basis: 50%;
+}
+.productcontent .right-side{
+    margin-top: 10%;
+    align-content: center;
+}
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-info{
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+    padding-left: 20px;
+}
+.contact-form{
+    max-width: 80%;
+    margin-right: 40px;
+    flex: 1;
+}
+.contact-form .text-box{
+    background-color: cadetblue;
+    font-weight: bold;
+    color: black;
+    border: none;
+    width: 50%;
+    height: 50px;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 12px;
+
+}
+.contact-form textarea{
+    background-color: cadetblue;
+    font-weight: bold;
+    color: black;
+    border: none;
+    width: 100%;
+    height: 200px;
+    max-height: 250px;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+
+
+
+}
+.contact-form .send-button{
+    float: left;
+    background-color: coral;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15%;
+}
+select{
+    background-color: cadetblue;
+    font-weight: bold;
+    color: black;
+    border: none;
+    width: 15%;
+    height: 40px;
+    max-height: 40px;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
